@@ -1,0 +1,19 @@
+img.userImage {
+  position: relative;
+  bottom: -4vw;
+  width: 19vw;
+  height: 19vw;
+}
+.userProfile{
+  height: 100%;
+}
+img.socialIcon{
+  width: 2rem;
+  height:2rem
+}
+.userSocialLink ul{
+  list-style: none;
+}
+.userInfo{
+  padding-top: 4rem;
+}
