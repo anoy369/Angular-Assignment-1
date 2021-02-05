@@ -11,6 +11,10 @@ import { UserProfileComponent } from './components/account/user-profile/user-pro
 import { AddressBookComponent } from './components/account/address-book/address-book.component';
 import { RecentOrdersComponent } from './components/account/recent-orders/recent-orders.component';
 import { AddressBookEditComponent } from './components/account/address-book/address-book-edit/address-book-edit.component';
+import { UserCoverComponent } from './components/account/user-profile/user-cover/user-cover.component';
+import { UserImageComponent } from './components/account/user-profile/user-cover/user-image/user-image.component';
+import { UserInfoComponent } from './components/account/user-profile/user-info/user-info.component';
+import { UserSocialLinkComponent } from './components/account/user-profile/user-social-link/user-social-link.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { AddressBookEditComponent } from './components/account/address-book/addr
     UserProfileComponent,
     AddressBookComponent,
     RecentOrdersComponent,
-    AddressBookEditComponent
+    AddressBookEditComponent,
+    UserCoverComponent,
+    UserImageComponent,
+    UserInfoComponent,
+    UserSocialLinkComponent
   ],
   imports: [
     BrowserModule,
